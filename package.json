@@ -1,7 +1,7 @@
 {
-  "name": "blog",
+  "name": "typescript_task",
   "version": "1.0.0",
-  "description": "Functional develop",
+  "description": "Typescript task",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --open --config ./webpack.dev.conf.js",
@@ -16,12 +16,12 @@
   "author": "https://github.com/DmitriyPL",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DmitriyPL/otus-functional-delelop.git"
+    "url": "git+https://github.com/DmitriyPL/otus-typescript-task.git"
   },
   "bugs": {
-    "url": "https://github.com/DmitriyPL/otus-functional-delelop/issues"
+    "url": "https://github.com/DmitriyPL/otus-typescript-task/issues"
   },
-  "homepage": "https://github.com/DmitriyPL/otus-functional-delelop#readme",
+  "homepage": "https://github.com/DmitriyPL/otus-typescript-task#readme",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.18.5",

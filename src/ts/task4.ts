@@ -5,7 +5,7 @@
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 
-type Order =
+export type Order =
   | {
       state: "initial";
       sum: number;

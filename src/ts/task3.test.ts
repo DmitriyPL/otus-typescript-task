@@ -1,18 +1,24 @@
-import { Order, getOrderState} from "./task2";
+import { omit } from "./task3";
 
-const order: Order =
-{
-  state: "initial",
-  sum: 1
-};
+type Test = {
+  name: string, 
+  id: number
+}
+
+const obj: Test = {
+  name: "Nik", 
+  id: 123456
+}
 
 describe("function getOrderState", () => {
 
   it("getUserOrderStates to be instance of Function", () => {
-    expect(getOrderState).toBeInstanceOf(Function);
+    expect(omit).toBeInstanceOf(Function);
   });
 
   it("return 'initial'", () => {
-    expect(getOrderState(order)).toBe("initial");
+    expect(omit<Test, "name">(obj, "name")).toEqual({
+      id: 123456  
+    });
   });
 });

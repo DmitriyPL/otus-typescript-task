@@ -1,4 +1,4 @@
-import * as React from 'react';
+import * as React from "react";
 // Есть функция которая достает из реакт компонента (любого, и Functional и Class) его defaultProps
 // Нужно заменить FIXME на правильный тип
 
